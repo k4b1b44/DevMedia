@@ -21,7 +21,7 @@ public class Conexao {
             Connection con = DriverManager.getConnection(url, usuario, senha);
             
             
-            Statement comando = con.createStatement();
+            /*Statement comando = con.createStatement();
             
             String adicionar = "INSERT INTO ROOT.ALUNOS (IDALUNO, NOME, SOBRENOME, CODCIDADE) \n" +
             "VALUES (108, 'Damiao ', 'Queiroz', 1)";
@@ -30,8 +30,8 @@ public class Conexao {
             
             
             JOptionPane.showMessageDialog(null, "Quantidade de Registros modificados"+reg);
-            
-            System.out.println("Conexão realizada com sucesso!"); 
+            */
+            System.out.println("Conexão realizada com sucesso!!!!"); 
         } catch (SQLException e) {
             System.out.println("Erro: "+e.getMessage());
         }
