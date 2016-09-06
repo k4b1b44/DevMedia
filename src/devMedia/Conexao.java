@@ -48,6 +48,7 @@ public class Conexao {
            
             
             System.out.println("Conexão realizada com sucesso!!!!"); 
+            System.out.println("Testando do GIT"); 
         } catch (SQLException e) {
             System.out.println("Erro: "+e.getMessage());
         }
